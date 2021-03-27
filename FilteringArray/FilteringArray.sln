@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilteringArray", "FilteringArray\FilteringArray.csproj", "{7947A53D-AA03-4D76-8315-44C98D24A33B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilteringArrayLib", "FilteringArrayLib\FilteringArrayLib.csproj", "{587709FA-C657-42EE-85D7-B9F4F901DBA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7947A53D-AA03-4D76-8315-44C98D24A33B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7947A53D-AA03-4D76-8315-44C98D24A33B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7947A53D-AA03-4D76-8315-44C98D24A33B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7947A53D-AA03-4D76-8315-44C98D24A33B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{587709FA-C657-42EE-85D7-B9F4F901DBA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{587709FA-C657-42EE-85D7-B9F4F901DBA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{587709FA-C657-42EE-85D7-B9F4F901DBA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{587709FA-C657-42EE-85D7-B9F4F901DBA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {639720E9-16CB-4851-ABB8-459E9F8A58EE}
+	EndGlobalSection
+EndGlobal
