@@ -9,9 +9,9 @@ namespace FilteringArrayLib
     public class ArrayMethods
     {
         /// <summary>
-        /// Метод сортировки массива целых чисел от меньшего к большему. Принимает массив целых чисел.
+        /// A method for sorting integers from smallest to largest. Takes an array of integers
         /// </summary>
-        /// <param name="MyArray">Массив целых чисел</param>
+        /// <param name="MyArray">Array of integers</param>
         public static void ArraySorting(int[] MyArray)
         {
             for (int i = 0; i < MyArray.Length; i++)
@@ -29,10 +29,10 @@ namespace FilteringArrayLib
         }
 
         /// <summary>
-        /// Метод поиска значение в массиве. Принимает 2 параметра: 1)массив целых чисел; 2)число которое нужно найти.
+        /// Search method for a value in an array. Takes 2 parameters: 1) an array of integers; 2) the number to be found.
         /// </summary>
-        /// <param name="MyArray">Массив целых чисел</param>
-        /// <param name="IntWhatWeFinde">Число которое необходимо найти</param>
+        /// <param name="MyArray">Array of integers</param>
+        /// <param name="IntWhatWeFinde">The number you need to find</param>
         public static void FindeNumeralInArray(int[] MyArray, int IntWhatWeFinde)
         {
             char StrWhatWeFinde = Char.Parse(IntWhatWeFinde.ToString());
@@ -51,9 +51,9 @@ namespace FilteringArrayLib
             }
         }
         /// <summary>
-        /// Метод проверки на заполненяемость массива; Принимает массив челых чисел.
+        /// Method for checking if the array is full or null; Accepts an array of integers.
         /// </summary>
-        /// <param name="MyArray">Массив целых чисел</param>
+        /// <param name="MyArray">Array of integers</param>
         private static void CheckArrayForNull (int [] MyArray)
         {
             for (int i = 0; i < MyArray.Length; i++)
@@ -69,9 +69,9 @@ namespace FilteringArrayLib
             }
         }//не особо понял задание + как вывести "privat" в мейн
         /// <summary>
-        /// Метод проверяет длинну массива на 20 индексов
+        /// The method checks the length of the array by 20 indices
         /// </summary>
-        /// <param name="MyArray">Массив целых чисел</param>
+        /// <param name="MyArray">Array of integers</param>
         private static void CheckArrayForLength(int[] MyArray)
         {
             if (MyArray.Length > 20)
