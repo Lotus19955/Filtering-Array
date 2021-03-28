@@ -11,16 +11,21 @@ namespace FilteringArray
     {
         static void Main(string[] args)
         {
-            int[] MyArray = new int[] { 1, 23, 54, 67, 6, 90, 5, 7, 33, 73, 98, 55887, 38, 369, 95894, 561279, 12345637, 542987, 7774 };
-            int IntWhatWeFinde = 7;
+            int[] myArray= new int[] {1, 23, 54, 67, 6, 90, 5, 7, 33, 73, 98, 55887, 38, 369, 95894, 561279, 12345637, 542987, 7774};
+            int number = 7;
 
-            ArrayMethods.ArraySorting(MyArray);
-            for (int i = 0; i < MyArray.Length; i++)
+            int[] newArray = ArrayMethods.FindNumeralInArray(myArray,number);
+            if (newArray != null)
             {
-                Console.Write($"{MyArray[i]}\t");
+                for (int i = 0; i < newArray.Length; i++)
+                {
+                    Console.WriteLine(newArray[i]);
+                }
             }
-
-            ArrayMethods.FindeNumeralInArray(MyArray,IntWhatWeFinde);
+            else
+            {
+                Console.WriteLine("Array is null or empty");
+            }
             Console.ReadLine();
         }
     }
