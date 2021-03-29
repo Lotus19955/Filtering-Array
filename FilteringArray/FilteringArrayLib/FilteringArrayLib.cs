@@ -15,7 +15,7 @@ namespace FilteringArrayLib
         /// <param name="number">The number you need to find</param>
         public static int[] FindNumeralInArray(int[] myArray, int number)
         {
-            if (CheckArrayForLength(myArray) == false)
+            if (ValidateArray(myArray) == false)
             {
                 return null;
             }
@@ -46,13 +46,16 @@ namespace FilteringArrayLib
         /// Method for checking if the array is full or null; Accepts an array of integers.
         /// </summary>
         /// <param name="myArray">Array of integers</param>
-        private static bool CheckArrayForLength (int[] myArray)
+        private static bool ValidateArray(int[] myArray)
         {
-            if (myArray.Length <= 0)
-            { 
-                return false;
+            if (myArray != null)
+            {
+                if (myArray.Length > 0)
+                {
+                    return true;
+                }
             }
-            return true;
+            return false;
         }
     }
 }

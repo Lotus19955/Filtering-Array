@@ -14,7 +14,7 @@ namespace FilteringArray
             int[] myArray= new int[] {1, 23, 54, 67, 6, 90, 5, 7, 33, 73, 98, 55887, 38, 369, 95894, 561279, 12345637, 542987, 7774};
             int number = 7;
 
-            int[] newArray = ArrayMethods.FindNumeralInArray(myArray,number);
+            int[] newArray = ArrayMethods.FindNumeralInArray(myArray, number);
             if (newArray != null)
             {
                 for (int i = 0; i < newArray.Length; i++)
